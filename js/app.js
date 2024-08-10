@@ -43,4 +43,5 @@ function adicionar()
           <span class="texto-azul">${qtd}x</span> ${produto[0]} <span class="texto-azul">R$${subtotal}</span>
         </section>`;
 
+    document.getElementById("quantidade").value = "";
 }
